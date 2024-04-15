@@ -99,6 +99,7 @@ import { getCurrentTime } from "@/utils/getTime.js";
 import { mainStore } from "@/store";
 import { NText, NIcon } from "naive-ui";
 import { useRouter } from "vue-router";
+import { Analytics } from "@vercel/analytics/react"
 
 const router = useRouter();
 const store = mainStore();
